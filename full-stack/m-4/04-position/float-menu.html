@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        .header{
+            overflow: hidden;
+            margin: auto;
+            width: 80%;
+            background: #000b49;
+            padding: 15px;
+            font-size: 18px;
+        }
+        .menu{
+            /* display: inline-block; */
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+            line-height: 75px;
+        }
+        li{
+            /* display: inline-block; */
+            color: #a18a17;
+            float: left;
+            margin-left: 15px;
+        }
+        .logo{
+            float: left;
+            /* display: inline-block; */
+        }
+
+        @media screen and (max-width: 500px) {
+            .logo{
+                float: none;
+                text-align: center;
+            }
+            .menu{
+                margin-top: 20px;
+                float: none;
+                text-align: center;
+                line-height: normal;
+            }
+            li{
+                float: none;
+                /* background: red; */
+                margin-bottom: 5px;
+                padding: 10px;
+            }
+        }
+
+
+        /* CSS da aula sobre float
+        ul{
+            list-style: none;
+        }
+        li{
+            float: left;
+            padding: 10px;
+            background-color: aquamarine;
+            margin: 5px;
+        } */
+
+
+    </style>
+    <title>Módulo 04 - Position - Float - Media Queries</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="../assets/PR_VERTICAL_DOURADO_bco.png" height="100px" alt="">
+            <!-- LOGO -->
+        </div>
+
+            <ul class="menu">
+                <li>Home</li>
+                <li>Cursos</li>
+                <li>Contato</li>
+                <!-- <li>Escritórios</li> -->
+                <li>Noticias</li>
+            </ul>
+        
+    </div>
+</body>
+</html>
